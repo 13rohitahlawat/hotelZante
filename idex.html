@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Zante</title>
+    <!-------font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!---------google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-----------boot strap-->
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <!-------style sheet-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-------header section start-->
+    <header class="header">
+      <div class="in-container">
+        <h4>Welcome to Hotel Zante</h4>
+        <div class="phone">
+          <span> <i class="fas fa-phone-alt"></i> 123-12345678</span>
+          <span> <i class="far fa-envelope"></i> contact@hotelzante.com</span>
+        </div>
+      </div>
+    </header>
+    <!-------header section end-->
+
+    <!------nav bar--->
+    <nav class="navBar">
+      <div class="logo">
+        <img src="img/logo/logo.svg" alt="" />
+      </div>
+      <div class="navLinks">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Rooms</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li style="margin-left: 20px">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="book-btn"
+              ><i class="far fa-calendar-alt"></i> Book Online</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <button type="button" id="toggleBtn" class="nav-btn">
+        <span></span>
+      </button>
+    </nav>
+    <div class="sideNavbar">
+      <button class="close-btn"><span></span></button>
+      <div class="nav-menu">
+        <h2>Menu</h2>
+      </div>
+      <div class="sideNavlink">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Rooms</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <a
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="side-book-btn"
+        ><i class="far fa-calendar-alt"></i> Book Online</a
+      >
+    </div>
+    <!------nav bar end--->
+
+    <!-------landing Page with slider (start)---->
+
+    <div class="landing-section">
+      <!------slide 1------>
+      <div class="slider active">
+        <img src="img/slider image/slider-1.jpg" alt="" />
+        <div class="inner-info">
+          <div class="upper-heading">
+            <span><i class="far fa-star"></i></span
+            ><span><i class="far fa-star"></i></span
+            ><span><i class="far fa-star"></i></span
+            ><span><i class="far fa-star"></i></span
+            ><span><i class="far fa-star"></i></span>
+            <h3>Star Luxury Hotel</h3>
+          </div>
+          <div class="middle-info">
+            <h1>Hotel Zantey</h1>
+          </div>
+          <div class="lover-info">
+            <p>
+              <i class="fas fa-water"></i><i class="fas fa-water"></i
+              ><i class="fas fa-water"></i> Live Your Myth in Greece
+              <i class="fas fa-water"></i><i class="fas fa-water"></i
+              ><i class="fas fa-water"></i><i class="fas fa-water"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!------slide 1------>
+      <!------slide 2------>
+      <div class="slider">
+        <img src="img/slider image/slider-2.jpg" alt="" />
+        <div class="inner-info">
+          <div class="upper-heading">
+            <span><i class="far fa-star"></i></span
+            ><span><i class="far fa-star"></i></span
+            ><span><i class="far fa-star"></i></span
+            ><span><i class="far fa-star"></i></span
+            ><span><i class="far fa-star"></i></span>
+            <h3>Star Luxury Hotel</h3>
+          </div>
+          <div class="middle-info">
+            <h1>Enjoy Your Holidays</h1>
+          </div>
+          <div class="lover-info">
+            <p>
+              <i class="fas fa-water"></i><i class="fas fa-water"></i
+              ><i class="fas fa-water"></i> Navagio Beach
+              <i class="fas fa-water"></i><i class="fas fa-water"></i
+              ><i class="fas fa-water"></i><i class="fas fa-water"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!------slide 2------>
+      <!------slide 3------>
+      <div class="slider">
+        <img src="img/slider image/slider-3.jpg" alt="" />
+        <div class="inner-info">
+          <div class="upper-heading">
+            <span><i class="far fa-star"></i></span
+            ><span><i class="far fa-star"></i></span
+            ><span><i class="far fa-star"></i></span
+            ><span><i class="far fa-star"></i></span
+            ><span><i class="far fa-star"></i></span>
+            <h3>Star Luxury Hotel</h3>
+          </div>
+          <div class="middle-info">
+            <h1>Touch The Dream</h1>
+          </div>
+          <div class="lover-info">
+            <p>
+              <i class="fas fa-water"></i><i class="fas fa-water"></i
+              ><i class="fas fa-water"></i> Family Room for 2500/- per night
+              <i class="fas fa-water"></i><i class="fas fa-water"></i
+              ><i class="fas fa-water"></i><i class="fas fa-water"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!------slide 3------>
+      <!-----prev next button-->
+      <div class="navigation">
+        <i class="fas fa-chevron-left prev-btn"></i>
+        <i class="fas fa-chevron-right next-btn"></i>
+      </div>
+    </div>
+
+    <!-------landing Page with slider (end)---->
+
+    <!----------about section (start)-->
+    <div class="about-section">
+      <div class="card about">
+        <h2>HOTEL ZANTE SINCE 1992</h2>
+        <h4>High quality accommodation services</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+          vero eros et accumsan.
+        </p>
+        <div class="button">
+          <a href="#">More Details <span>></span> </a>
+        </div>
+      </div>
+      <div class="card image-section">
+        <div class="back-img">
+          <img src="img/about/about2.jpg" alt="" />
+        </div>
+        <div class="front-img">
+          <img src="img/about/about1.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!----------about section (end)-->
+    <!--------------room section----->
+    <div class="room-section">
+      <div class="heading">
+        <h1>OUR FAVORITE ROOMS</h1>
+        <h4>Check out now our best rooms</h4>
+      </div>
+      <div class="room-gallery">
+        <div class="left-gal">
+          <div class="image">
+            <div class="price-tag">Rs. 2500/ Night</div>
+            <img src="img/rooms/room-full-1-720x470.jpg" alt="" />
+          </div>
+          <div class="img-caption">
+            <h3>Deluxe Room</h3>
+          </div>
+        </div>
+        <div class="right-gal">
+          <div class="row-1">
+            <div class="img-gal">
+              <img src="img/rooms/1-720x470.jpg" alt="" />
+              <div class="caption">
+                <h4>Family Room</h4>
+              </div>
+            </div>
+            <div class="img-gal">
+              <img src="img/rooms/honeymoon-720x470.jpg" alt="" />
+              <div class="caption">
+                <h4>Honeymoon Room</h4>
+              </div>
+            </div>
+          </div>
+          <div class="row-2">
+            <div class="img-gal">
+              <img src="img/rooms/king-room-720x470.jpg" alt="" />
+              <div class="caption">
+                <h4>King Room</h4>
+              </div>
+            </div>
+            <div class="img-gal">
+              <img src="img/rooms/single-720x470.jpg" alt="" />
+              <div class="caption">
+                <h4>Single Room</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="room-btn">
+        <a href="#">view all rooms <span>></span> </a>
+      </div>
+    </div>
+    <!--------------room section----->
+
+    <!---------services section (start)------>
+
+    <div class="service-section">
+      <div class="service-heading">
+        <h1>OUR AWESOME SERVICES</h1>
+        <h4>Check out our awesome services</h4>
+      </div>
+      <div class="service-slider-section">
+        <div class="image-section">
+          <div class="image-slider">
+            <!----------slide 1-->
+            <div class="img-slider active">
+              <img src="img/services/restaurant.jpg" alt="" />
+            </div>
+            <!----------slide 1-->
+
+            <!----------slide 2-->
+            <div class="img-slider">
+              <img src="img/services/conference.jpg" alt="" />
+            </div>
+            <!----------slide 2-->
+
+            <!----------slide 3-->
+            <div class="img-slider">
+              <img src="img/services/spa.jpg" alt="" />
+            </div>
+            <!----------slide 4-->
+          </div>
+          <div class="img-slider">
+            <img src="img/services/swimming.jpg" alt="" />
+          </div>
+          <!----------slide 4-->
+        </div>
+        <div class="image-caption">
+          <div class="innerImg-caption activee">
+            <div class="disc-logo">
+              <img src="img/services/discriptionLogo/plate.png" alt="" />
+            </div>
+            <div class="discription">
+              <h3>Restaurant</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet
+              </p>
+            </div>
+          </div>
+          <div class="innerImg-caption">
+            <div class="disc-logo">
+              <img src="img/services/discriptionLogo/conference.png" alt="" />
+            </div>
+            <div class="discription">
+              <h3>conference Room</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet
+              </p>
+            </div>
+          </div>
+          <div class="innerImg-caption">
+            <div class="disc-logo">
+              <img src="img/services/discriptionLogo/spa.png" alt="" />
+            </div>
+            <div class="discription">
+              <h3>Spa - Beauty & Health</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet
+              </p>
+            </div>
+          </div>
+          <div class="innerImg-caption" style="margin-bottom: 0%">
+            <div class="disc-logo">
+              <img src="img/services/discriptionLogo/swimmer.png" alt="" />
+            </div>
+            <div class="discription">
+              <h3>Swimming Pool</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------services section (end)------>
+    <!-----------discover section start------------>
+
+    <div class="discover-section">
+      <div class="discover-heading">
+        <h1>DISCOVER GREECE</h1>
+        <h4>Places you must explore this summer</h4>
+      </div>
+      <div class="disc-image">
+        <div class="left-disc-img">
+          <img src="img/Discover section/slider-3-720x470.jpg" alt="" />
+          <div class="place-name">
+            <h3>Navagio</h3>
+          </div>
+        </div>
+        <div class="right-disc-img">
+          <div class="disc-row-1">
+            <img src="img/Discover section/zakynthos-1-720x470.jpg" alt="" />
+          </div>
+          <div class="disc-row-2">
+            <div class="row2-inner" style="margin-top: 0%">
+              <img src="img/Discover section/santorini-720x470.jpg" alt="" />
+            </div>
+            <div class="row2-inner">
+              <img src="img/Discover section/acropolis-720x470.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-btn">
+        <p>
+          Check out more <span class="span">places <span>></span></span
+          >now
+        </p>
+      </div>
+    </div>
+
+    <!-----------discover section end------------>
+    <!---------------testimonial section start-->
+
+    <div class="testimonial">
+      <div class="testimonial-heading">
+        <h1>OUR GUESTS LOVE US</h1>
+        <h4>What our guests are saying about us</h4>
+      </div>
+      <div class="testimonial-cmnt-sec">
+        <div class="testi-card">
+          <div class="card-upper">
+            <h2>Nice Place</h2>
+            <ul>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+            </ul>
+            <p>
+              Fantastic location in a historic renovated monastery in the heart
+              of the Castro. Staff were helpful and knowledgeable and everything
+              in easy walking distance.
+            </p>
+          </div>
+          <div class="card-lower">
+            <div class="logo">
+              <img src="img/testimonial/user1.jpg" alt="" />
+            </div>
+            <div class="name">
+              <h4>Ina Aldrich</h4>
+              <h4 class="address">Athens, Greece</h4>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="card-upper">
+            <h2>Perfect</h2>
+            <ul>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+            </ul>
+            <p>
+              The owner and staff were extremely helpful and kind and took time
+              to ensure that we had extra information on things to do in the
+              area and places to visit.
+            </p>
+          </div>
+          <div class="card-lower">
+            <div class="logo">
+              <img src="img/testimonial/user2.jpg" alt="" />
+            </div>
+            <div class="name">
+              <h4>John Doe</h4>
+              <h4 class="address">Rome, Italy</h4>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="card-upper">
+            <h2>Good Choice</h2>
+            <ul>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+            </ul>
+            <p>
+              Extremely nice environment, the room was great, the service was
+              awesome, really helpful and great service I'll visit them again in
+              the near future.
+            </p>
+          </div>
+          <div class="card-lower">
+            <div class="logo">
+              <img src="img/testimonial/user3.jpg" alt="" />
+            </div>
+            <div class="name">
+              <h4>William W.</h4>
+              <h4 class="address">Lisbone, Portugal</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------testimonial section start-->
+    <!------------ Latest News and Events------>
+
+    <div class="latest-news">
+      <div class="news-heading">
+        <h1>LATEST NEWS & EVENTS</h1>
+        <h4>Check out our latest news & events</h4>
+      </div>
+      <div class="news-card-section">
+        <div class="news-card">
+          <div class="card-image">
+            <img src="img/latest news/zante-in-pictures-720x520.jpg" alt="" />
+          </div>
+          <div class="card-details">
+            <h2>Hotel Zante in pictures</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut...
+            </p>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="card-image">
+            <img src="img/latest news/blog_post5-720x520.jpg" alt="" />
+          </div>
+          <div class="card-details">
+            <h2>10 Things You Should Know</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut...
+            </p>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="card-image">
+            <img src="img/latest news/blog_post4-720x520.jpg" alt="" />
+          </div>
+          <div class="card-details">
+            <h2>Hotel Zante Weddings</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------ Latest News and Events------>
+
+    <!------------footer------------>
+    <div class="footer">
+      <div class="footer-card logo-card">
+        <img src="img/logo/logo.svg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat.
+        </p>
+      </div>
+
+      <div class="footer-card card-2">
+        <h3>Latest News</h3>
+        <ul>
+          <li><a href="#">Hotel Zante in pictures</a></li>
+          <li><a href="#">10 Things You Should Know</a></li>
+          <li><a href="#">Hotel Zante Weddings</a></li>
+          <li><a href="#">Live your myth in Greece</a></li>
+          <li><a href="#">Post without feuatured image</a></li>
+        </ul>
+      </div>
+      <div class="footer-card card-2 card-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>
+            <a href="#"
+              ><span><i class="fas fa-arrow-circle-right"></i></span>
+              Location</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span><i class="fas fa-arrow-circle-right"></i></span> Gallery</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span><i class="fas fa-arrow-circle-right"></i></span> Contact
+              Us</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span><i class="fas fa-arrow-circle-right"></i></span> About
+              Us</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span><i class="fas fa-arrow-circle-right"></i></span> My
+              Booking</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="footer-card card-4">
+        <h3>Contact Us</h3>
+        <ul>
+          <li>
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            25, Navagio Zakynthos, Greece
+          </li>
+          <li>
+            <span><i class="fas fa-phone-alt"></i></span> Phone: 123-12345678
+          </li>
+          <li>
+            <span><i class="far fa-envelope"></i></span>Email:
+            contact@hotelzante.com
+          </li>
+        </ul>
+        <ul class="social-links">
+          <li style="margin-left: 0%">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-tripadvisor"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!------------footer------------>
+
+    <!--------script-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
